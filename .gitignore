@@ -1,0 +1,98 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# VS Code directory
+.vscode/
+
+# Pytest cache files
+.cache/
+.pytest_cache/
+
+# FastAPI/Starlette temporary files
+*.db
+instance/
+*.sqlite
+*.sqlite3
+
+# dotenv environment files
+.env
+.env.*
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# macOS-specific files
+.DS_Store
+
+# Linux file system files
+*.swp
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# PyInstaller
+# Usually contains compiled application files
+dist/
+build/
+*.spec
+
+# Database
+*.sqlite3
+*.db
+
+# Python egg files
+*.egg
+*.egg-info/
+.eggs/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pydantic cache files
+.pydantic/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pipenv
+Pipfile.lock
+Pipfile
+
+# Testing
+.pytest_cache/
+
+# Pyre type checker
+.pyre/
+
+# Uvicorn temporary files
+*.pid
+
+# Coverage files
+coverage.json
+
+# Celery beat schedule file
+celerybeat-schedule
